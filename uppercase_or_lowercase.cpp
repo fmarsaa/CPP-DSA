@@ -4,7 +4,7 @@ using namespace std;
 
 
 void identifyCharacter(char letter) {
-    if letter >= 'A' && a <= 'Z') {
+    if (letter >= 'A' && letter <= 'Z') {
         cout << "The character is uppercase." << endl;
     }
     else if (letter >= 'a' && letter <= 'z') {
