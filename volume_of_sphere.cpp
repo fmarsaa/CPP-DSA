@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cmath>
-#include <corecrt_math_defines.h>
 using namespace std;
 
 
@@ -11,8 +10,9 @@ int main() {
     cout << "Enter radius: ";
     cin >> radius;
 
+const double PI = 3.142;
     // using pow() to compute r^3
-    double volume = (4 / 3) * M_PI * pow(radius, 3);
+    double volume = (4 / 3) * PI * pow(radius, 3);
 
     cout << "Volume = " << volume << endl;
 
